@@ -1,0 +1,323 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+:root {
+    --primary-background-color: black;
+    --primary-text-color: white;
+    --secondary-color: yellowgreen;
+
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+
+}
+
+::selection {
+    background-color: var(--primary-background-color);
+    color: var(--secondary-color);
+}
+
+body {
+    /* width: 1515px;
+    height: 882px; */
+    height: 1024px;
+    width: 1400px;
+    background: url("/images/pexels-deva-darshan-1173777.jpg");
+    background-size: cover;
+    object-fit: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    font-family: Montserrat;
+    overflow-x :hidden; 
+}
+
+.nav-bar {
+    background-color: var(--primary-background-color);
+    position: absolute;
+    width: 1600px;
+    height: 80px;
+    left: -1px;
+    top: 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#logo {
+    position: absolute;
+    height: 100px;
+    width: 60px;
+    left: 169px;
+    top: 4px;
+    border-radius: 0px;
+}
+
+#logo-name {
+    position: absolute;
+    width: 127.67px;
+    height: 41px;
+    left: 242px;
+    top: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 41px;
+    color: var(--primary-text-color);
+}
+
+#tagline {
+    position: absolute;
+    width: 120px;
+    height: 14px;
+    left: 242px;
+    top: 40px;
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 41px;
+    color: var(--primary-text-color);
+}
+
+.nav-links {
+    justify-content: space-evenly;
+}
+
+.nav-links ul {
+    font-family: 'Montserrat';
+    font-style: semibold;
+    font-size: 24px;
+    line-height: 41px;
+    color: var(--primary-text-color);
+    justify-content: end;
+    gap: 40px;
+}
+
+.nav-links ul li a {
+    color: var(--primary-text-color);
+}
+
+.sign-in {
+    height: 1000px;
+    width: 1515px;
+}
+
+.text-box {
+    height: 600px;
+    width: 891px;
+    top: 250px;
+    left: 246px;
+    border-radius: 20px;
+    background-color: rgba(217, 217, 217, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-box {
+    position: absolute;
+    width: 726px;
+    height: 590px;
+    left: 354px;
+    top: 273px;
+    background: rgba(217, 217, 217, 0.9);
+    border-radius: 20px;
+}
+
+.heading {
+    position: absolute;
+    width: 128px;
+    height: 42px;
+    left: 315px;
+    top: 29px;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 30px;
+    color: #228B22;
+}
+
+.short-heading {
+    position: absolute;
+    width: 216px;
+    height: 23px;
+    left: 285px;
+    top: 70px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 33px;
+    color: #000000;
+}
+
+.name {
+    position: absolute;
+    width: 324px;
+    height: 42px;
+    left: 215px;
+    top: 150px;
+    background: rgba(34, 139, 34, 0.32);
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+}
+
+#email-icon {
+    position: relative;
+    left: 220px;
+    top: 162px;
+    opacity: 0.6;
+}
+
+::placeholder {
+    position: absolute;
+    width: 120px;
+    height: 21px;
+    left: 15px;
+    top: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    /* padding-left: 5px; */
+    /* text-align: ; */
+    /* identical to box height */
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.password {
+    position: absolute;
+    width: 324px;
+    height: 42px;
+    left: 215px;
+    top: 230px;
+    text-align: center;
+    background: rgba(34, 139, 34, 0.32);
+    border-radius: 10px;
+    border: none;
+}
+
+#lock-icon {
+    position: relative;
+    left: 185px;
+    top: 240px;
+    opacity: 0.6;
+}
+
+.signin-button {
+    position: absolute;
+    width: 324px;
+    height: 42px;
+    left: 215px;
+    top: 310px;
+    background: rgba(34, 139, 34, 0.8);
+    border-radius: 10px;
+    border: none;
+}
+
+.signin-button:hover {
+    position: absolute;
+    width: 324px;
+    height: 42px;
+    left: 215px;
+    top: 310px;
+    background: black;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#placeholder1 {
+    position: absolute;
+    height: 21px;
+    width: 65px;
+    left: 130px;
+    top: 12px;
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+
+}
+
+#placeholder1:hover {
+    color: #228B22;
+}
+
+#continue {
+    position: absolute;
+    width: 120px;
+    height: 16px;
+    left: 315px;
+    top: 395px;
+}
+
+.line1 {
+    position: absolute;
+    width: 107px;
+    height: 0.1em;
+    left: 440px;
+    top: 400px;
+    border: 3px solid #000000;
+}
+
+.line2 {
+    position: absolute;
+    width: 107px;
+    height: 0.1em;
+    left: 195px;
+    top: 400px;
+    border: 3px solid #000000;
+}
+
+.companies {
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    width: 240px;
+    height: 46px;
+    left: 255px;
+    top: 460px;
+    border-radius: 0px;
+    text-decoration: none;
+
+}
+
+span a {
+    text-decoration: none;
+    color: #000000;
+}
+
+#no-option {
+    position: absolute;
+    width: 2000px;
+    height: 20px;
+    left: 240px;
+    top: 510px;
+}
+#sign-up
+{
+    display: inline;
+    text-decoration: none;
+    color: #228B22;
+}
+.container {
+    width: 1515px;
+    height: 882px;
+    opacity: 0.95;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}

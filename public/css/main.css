@@ -1,0 +1,548 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+:root{
+    --primary-background-color:black;
+    --primary-text-color:white;
+    --secondary-color:yellowgreen;
+
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+
+}
+
+::selection{
+    background-color: var(--primary-background-color);
+    color: var(--secondary-color);
+}
+
+body{
+    /* width: 1515px;
+    height: 882px; */
+    height: 2750px;
+    width: 1140px;
+    background: url("/images/pexels-deva-darshan-1173777.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    font-family: Montserrat;
+}
+
+/* ~navigation bar */
+.nav-bar {
+background-color:var(--primary-background-color);
+position: absolute;
+width: 1471px;
+height: 80px;
+left: -1px;
+top: 0px;
+display: flex;
+justify-content: space-evenly;
+}
+
+#logo {
+    position: absolute;
+    height: 100px;
+    width: 60px;
+    left: 169px;
+    top: 4px;
+    border-radius: 0px;
+}
+
+#logo-name {
+    position: absolute;
+    width: 127.67px;
+    height: 41px;
+    left: 242px;
+    top: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 41px;
+    color:var(--primary-text-color);
+}
+#tagline {
+    position: absolute;
+    width: 120px;
+    height: 14px;
+    left: 242px;
+    top: 40px;
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 41px;
+    color: var(--primary-text-color);
+}
+
+.nav-links{
+    justify-content: space-evenly;
+}
+.nav-links ul{
+    font-family: 'Montserrat';
+    font-style: semibold;
+    font-size: 24px;
+    line-height: 41px;
+    color: var(--primary-text-color);
+    justify-content: end;
+    gap: 40px;
+}
+
+.nav-links ul li a{
+    color: var(--primary-text-color);
+}
+
+/* ~ Introduction block */
+
+.Intro-block
+{
+    top: 246px;
+    /* position: absolute; */
+    /* background-image: url(/images/pexels-deva-darshan-1173777.jpg); */
+    height: 500px;
+    width: 140px;
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 24px;
+    /* top: 246px; */
+    position: absolute;
+    
+}
+.main-heading{
+    color: var(--primary-text-color);
+    position:absolute;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-size: 58px;
+    margin-left: 40px;
+    font-weight: 900;
+    width: 729px;
+    height: 134px;
+    left:96px;
+}
+.intro-line{
+    width: 577px;
+    height: 58px;
+    position: absolute;
+    color:var(--primary-text-color);
+    left: 96px;
+    margin-left: 40px;
+    top: 80px;
+}
+
+.donate-btn{
+    position: absolute;
+    top: 190px;
+    background-color: var(--primary-background-color);
+    color: var(--primary-text-color);
+    padding: 23.38px 25.43px 17.43px 18.57px;
+    border-radius: 10px;
+    left: 96px;
+    margin-left: 40px;
+    transition: all 0.4s ease-out;
+}
+
+.donate-btn:hover{
+    color: var(--primary-background-color);
+    background-color: var(--secondary-color);
+}
+
+/* ~ About us block */
+.About-us{
+    position: absolute;
+    width: 1470px;
+    height: 500px;
+    left: 0px;
+    top: 598px;
+    background: rgba(0, 0, 0, 0.9);
+    flex-direction: column;
+}
+.main-heading-2{
+    color: var(--primary-text-color);
+    margin-top: 21px;
+    text-decoration: underline;
+}
+
+.para-1{
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 32px;
+    text-align: center;
+    margin: 33px 207px 24px 207px;
+}
+
+.explore-btn{
+    color: var(--primary-text-color);
+    border: 1px solid var(--primary-text-color);
+    width: 161.81px;
+    height: 67px;
+    text-align: center;
+    padding: 18.43px 51.43px 19.57px 20px;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: 800;
+    transition: all 0.4s ease-out;
+}
+
+.explore-btn:hover{
+    background-color: var(--secondary-color);
+    color: var(--primary-backgroud-color);
+    border: 1px solid var(--primary-backgroud-color);
+}
+
+/* ~ member-container */
+.member-container{
+    height: 510px;
+    position: absolute;
+    top: 1007px;
+    
+}
+
+.main-heading-3{
+    position: absolute;
+    left: 591px;
+    top: 120px;
+    width: 273px;
+    height: 44px;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: underline;
+    color: var(--primary-text-color);
+}
+
+.content{
+    justify-content: space-evenly;
+}
+.wild-logo{
+    height: 279px;
+    width: 274px;
+    margin-left: 256px;
+    margin-right: 22px;
+    margin-top: 147px;
+}
+
+.about-wild{
+    height: 303px;
+    width: 658px;
+    left: 560px;
+    top: 1258px;
+    color: var(--primary-text-color);
+    margin-top: 250px;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34.13px;
+    /* border-radius: nullpx; */
+}
+
+.see-all-btn{
+    position: absolute;
+    top: 500px;
+    left: 680px;
+    background-color: var(--primary-background-color);
+    color: var(--primary-text-color);
+    /* border: 1px solid var(--primary-text-color); */
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 25.28px;
+    font-weight: 600;
+    font-style: italic;
+    text-align: center;
+    padding-top: 10px;
+    transition: all 0.4s ease-in;
+}
+
+.see-all-btn:hover{
+    color: var(--primary-background-color);
+    background-color: var(--secondary-color);
+}
+
+/* ~ Join us block */
+.join-us{
+    position: absolute;
+    width: 1470px;
+    height: 580px;
+    left: 0px;
+    top: 1605px;
+    background: rgba(0, 0, 0, 0.9);
+    flex-direction: column;
+}
+
+.main-heading-4{
+    position: absolute;
+    left: 655px;
+    top: 27px;
+    width: 135px;
+    height: 44px;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: underline;
+    color: var(--primary-text-color);
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.join-content{
+    height: 271px;
+    width: 737px;
+    left: 157px;
+    top: 1px;
+    color: var(--primary-text-color);
+    /* margin-top: 250px; */
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29.26px;
+}
+
+.mask-group-logo{
+    height: 620px;
+    width: 400px;
+    margin-left: 100px;
+    /* margin-left: 256px;
+    margin-right: 22px;
+    margin-top: 80px; */
+}
+
+.sign-in{
+    position: absolute;
+    left: 115px;
+    top:420px;
+    width: 183px;
+    height: 69px;
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--primary-text-color);
+    border: 2px solid var(--primary-text-color);
+    border-radius: 10px;
+    padding: 13px 24px 12px 24px;
+    transition: all 0.4s ease-in;
+}
+
+.sign-in:hover{
+    color: var(--primary-background-color);
+    background-color: var(--secondary-color);
+    border: 1px solid var(--primary-background-color);
+}
+
+.sign-up{
+    position: absolute;
+    left: 350px;
+    top:420px;
+    width: 183px;
+    height: 69px;
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--primary-background-color);
+    background-color: var(--primary-text-color);
+    border-radius: 10px;
+    padding: 13px 24px 12px 24px;
+    transition: all 0.4s ease-in;
+}
+
+.sign-up:hover{
+    color: var(--secondary-color);
+    background-color: var(--primary-background-color);
+    border: 1px solid var(--secondary-color);
+}
+
+/* ~footer section */
+.footer-section{
+    height: 510px;
+    width: 1470px;
+    position: absolute;
+    top: 2185px;
+    background: rgba(255,255,255,0.2);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social-media{
+    display: flex;
+    flex-direction: column;
+}
+
+.company-logo{
+    display: flex;
+}
+
+#logo-2{
+    position: absolute;
+    height: 191.84px;
+    width: 116.13px;
+    left: 169px;
+    top: 93px;
+    border-radius: 0px;
+}
+
+#logo-name-2{
+    position: absolute;
+    width: 127.67px;
+    height: 41px;
+    left: 300px;
+    top: 130px;
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 58.51px;
+    color:var(--primary-text-color);
+}
+#tagline-2{
+    position: absolute;
+    width: 132px;
+    height: 20px;
+    left: 300px;
+    top: 171px;
+    margin-top: 10px;
+    /* font-family: 'Montserrat'; */
+    font-style: italic;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.5px;
+    color: var(--primary-text-color);
+}
+
+.company-text{
+    position: absolute;
+    color: var(--primary-text-color);
+    height: 125px;
+    width: 340px;
+    left: 200px;
+    top: 246px;
+    font-size: 25px;
+/* border-radius: nullpx; */
+}
+
+#author{
+    font-weight: 900;
+}
+
+.social-media-channels{
+    position: absolute;
+    top:370px;
+    width: 350px;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    left: 160px;
+    color:var(--primary-text-color);
+    filter: drop-shadow(4px 8px 4px rgba(0, 0, 0, 0.7));
+}
+
+::placeholder {
+    position: absolute;
+    width: 120px;
+    height: 21px;
+    left: 20px;
+    top: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    /* padding-left: 5px; */
+    /* text-align: ; */
+    /* identical to box height */
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.Quick-links{
+    position: absolute;
+    top: 114px;
+    color: var(--primary-text-color);
+    width: 222px;
+    height: 92px;
+    font-size: 20px;
+    /* text-align: center; */
+}
+
+.main-heading-5{
+    text-decoration: underline;
+    margin-bottom: 25px;
+}
+
+.Quick-links ul a{
+    color: var(--primary-text-color);
+    top: 209px;
+    font-size: 40px;
+    line-height: 48.76px;
+    letter-spacing: 2px;
+}
+
+.contact-us{
+    position: absolute;
+    color: var(--primary-text-color);
+    top: 114px;
+    left: 949px;
+}
+
+.main-heading-6{
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+#name{
+    position: absolute;
+    top: 80px;
+    width: 390px;
+    height: 67px;
+    background: rgba(255,255,255,0.2);
+    border: 5px solid var(--primary-text-color);
+    border-radius: 10px;
+    font-size: 20px;
+    color: var(--primary-background-color);
+}
+#message{
+    position: absolute;
+    top: 160px;
+    width: 390px;
+    height: 134px;
+    background: rgba(255,255,255,0.2);
+    border: 5px solid var(--primary-text-color);
+    border-radius: 10px;
+    font-size: 20px;
+    color: var(--primary-background-color);
+
+}
+
+.send-btn{
+    position: absolute;
+    top: 320px;
+    width: 138px;
+    height: 53px;
+    background: rgba(255,255,255,0.2);
+    border: 5px solid var(--primary-text-color);
+    border-radius: 10px;
+}
+
+/* ~  */
+.copyright{
+    position: absolute;
+    width: 1470px;
+    height: 59px;
+    left: 0px;
+    top: 2695px;
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.main-heading-7{
+    position: absolute;
+    color: var(--primary-text-color);
+    left: 575px;
+
+}
+#foot-text{
+    font-size: 20px;
+}

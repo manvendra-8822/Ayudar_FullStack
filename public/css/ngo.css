@@ -1,0 +1,178 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    /* scroll-behavior: smooth; */
+    list-style: none;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+:root {
+    --primary-background-color: black;
+    --primary-text-color: white;
+    --secondary-color: yellowgreen;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+::selection {
+    background-color: var(--primary-background-color);
+    color: var(--secondary-color);
+}
+
+body {
+    /* width: 1515px;
+    height: 882px; */
+    height: 1024px;
+    width: 1515px;
+    background: url("/images/pexels-deva-darshan-1173777.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    font-family: Montserrat;
+    overflow-x: hidden;
+
+}
+
+.nav-bar {
+    background-color: var(--primary-background-color);
+    position: absolute;
+    width: 1601px;
+    height: 80px;
+    left: -1px;
+    top: 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#logo {
+    position: absolute;
+    height: 100px;
+    width: 60px;
+    left: 169px;
+    top: 4px;
+    border-radius: 0px;
+}
+
+#logo-name {
+    position: absolute;
+    width: 127.67px;
+    height: 41px;
+    left: 242px;
+    top: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 41px;
+    color: var(--primary-text-color);
+}
+
+#tagline {
+    position: absolute;
+    width: 120px;
+    height: 14px;
+    left: 242px;
+    top: 40px;
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 41px;
+    color: var(--primary-text-color);
+}
+
+.nav-links {
+    justify-content: space-evenly;
+}
+
+.nav-links ul {
+    font-family: 'Montserrat';
+    font-style: semibold;
+    font-size: 24px;
+    line-height: 41px;
+    color: var(--primary-text-color);
+    justify-content: end;
+    gap: 40px;
+}
+
+.nav-links ul li a {
+    color: var(--primary-text-color);
+}
+
+.ngo {
+    width: 320px;
+    height: 300px;
+    border-radius: 40px;
+    background: rgba(217, 217, 217, 0.90);
+    position: absolute;
+    top: 180px;
+    left: 210px;
+}
+
+.ngo-1 {
+    width: 320px;
+    height: 300px;
+    border-radius: 40px;
+    background: rgba(217, 217, 217, 0.90);
+    position: absolute;
+    top: 180px;
+    left: 750px;
+}
+
+.ngo-2 {
+    width: 320px;
+    height: 300px;
+    border-radius: 40px;
+    background: rgba(217, 217, 217, 0.90);
+    position: absolute;
+    top: 580px;
+    left: 210px;
+}
+
+.ngo-3 {
+    width: 320px;
+    height: 300px;
+    border-radius: 40px;
+    background: rgba(217, 217, 217, 0.90);
+    position: absolute;
+    top: 580px;
+    left: 750px;
+}
+
+.details {
+    position: relative;
+    top: 50px;
+    left: 0px;
+    font-size: 30px;
+    text-align: center ;
+}
+
+.see-work {
+    background: rgba(34, 139, 34, 0.8);
+    border-radius: 10px;
+    border: none;
+    position: relative;
+    top:100px;
+    align-items: center;
+    left: 105px;
+    width: 105px ;
+    height: 45px;
+   
+}
+#placeholder1{
+    font-size: medium;
+}
+.see-work:hover{
+    color:var(--primary-text-color);
+    background-color: #74BE2E;
+}

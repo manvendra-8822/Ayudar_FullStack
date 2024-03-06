@@ -1,0 +1,266 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+    position: absolute;
+}
+
+body {
+    /* width: 1515px;
+    height: 882px; */
+    width: 1600px;
+    background: url("/images/pexels-deva-darshan-1173777.jpg") ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    font-family: Montserrat, sans-serif;
+    overflow-x :hidden; 
+    /* text-align: center; */
+}
+:root{
+    --primary-background-color:black;
+    --primary-text-color:white;
+    --secondary-color:yellowgreen;
+
+}
+::selection{
+    background-color: var(--primary-background-color);
+    color: var(--secondary-color);
+}
+
+.container {
+    width: 1515px;
+    height: 882px;
+    opacity: 0.95;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.nav-bar {
+    background-color: black;
+    position: absolute;
+    width: 1600px;
+    height: 80px;
+    left: -1px;
+    top: 0px;
+
+}
+
+#logo {
+    height: 100px;
+    width: 60px;
+    left: 169px;
+    top: 4px;
+    border-radius: 0px;
+}
+
+#logo-name {
+    width: 127.67px;
+    height: 41px;
+    left: 242px;
+    top: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 41px;
+    color: white;
+}
+
+#tagline {
+    width: 120px;
+    height: 14px;
+    left: 242px;
+    top: 40px;
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 41px;
+    color: white;
+}
+
+.payment {
+    height: 1000px;
+    width: 1515px;
+}
+
+#background {
+    top: 80px;
+    position: relative;
+    height: 882px;
+    width: 1515px;
+    background-color: rgba(0, 0, 0, 0.5);
+    object-fit: cover;
+}
+
+.text-box {
+    height: 600px;
+    width: 891px;
+    top: 196px;
+    left: 250px;
+    border-radius: 20px;
+    background-color: rgba(217, 217, 217, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    width: 273px;
+    height: 44px;
+    top: 35px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 44px;
+    color: rgba(34, 139, 34, 1);
+    left: 334px;
+    right: 334px;
+}
+
+#lock {
+    height: 80px;
+    width: 80px;
+    left: 440px;
+    right: 334px;
+    top: 100px;
+    border-radius: 0px;
+}
+
+#encryption {
+    width: 279px;
+    height: 23px;
+    left: 364px;
+    top: 120px;
+    /* font-style:medium; */
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 23px;
+    color: rgba(0, 0, 0, 0.85);
+}
+
+#choice {
+    width: 238px;
+    height: 33px;
+    left: 334px;
+    right: 334px;
+    top: 200px;
+    text-align: center;
+    font-style: semi-bold;
+    font-weight: 600;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.85);
+}
+
+.cards-payment {
+    box-sizing: border-box;
+    width: 453px;
+    height: 75px;
+    left: 220px;
+    top: 250px;
+    border: 5px solid #000000;
+    border-radius: 15px;
+}
+
+#credit-debit {
+    width: 200px;
+    height: 27px;
+    left: 22px;
+    top: 18px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+
+}
+
+#visa {
+    left: 245px;
+    top: 30px;
+    bottom: 18px;
+    color: #000000;
+}
+
+#master {
+    left: 295px;
+    top: 30px;
+    bottom: 18px;
+}
+#aexpress {
+    left: 345px;
+    top: 30px;
+    bottom: 18px;
+}
+#arrow1 {
+    left: 400px;
+    top: 30px;
+
+}
+.cards-payment2{
+    box-sizing: border-box;
+    width: 453px;
+    height: 75px;
+    left: 220px;
+    top: 350px;
+    border: 5px solid #000000;
+    border-radius: 15px;
+}
+#paypal
+{
+    left: 245px;
+    top: 30px;
+    bottom: 18px;
+    color: #000000;
+}
+#gpay{
+    left: 295px;
+    top: 30px;
+    bottom: 18px;       
+}
+#amazonpay
+{
+    left: 345px;
+    top: 30px;
+    bottom: 18px;
+}
+.cancel-payment{
+width: 140px;
+height: 51px;
+left: 388px;
+top: 500px;
+background: #228B22;
+border-radius: 15px;
+}
+.cancel-payment:hover{
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 140px;
+    height: 51px;
+    background: rgba(34, 139, 34, 0.8);
+    /* border: 4px solid rgba(34, 139, 34, 0.9); */
+    border-radius: 15px;
+}
+.signin-button {
+    position: absolute;
+    width: 324px;
+    height: 52px;
+    left: 280px;
+    top: 470px;
+    background: rgba(34, 139, 34, 0.8);
+    border-radius: 10px;
+    border: none;
+}

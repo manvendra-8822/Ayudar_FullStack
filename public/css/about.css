@@ -1,0 +1,175 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+    font-family: Montserrat, sans-serif;
+}
+body {
+    width: 1200px;
+    height: 882px; 
+     /* width: 1440px; */
+    background: url("/images/pexels-deva-darshan-1173777.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Montserrat;
+
+
+}
+.container {
+
+    /* width: 1440px;
+    height: 1600px; */
+    width:900px;
+    height: 800px;
+    display: grid;
+    place-items: center;
+}
+
+/* .inner-div{
+        position: absolute;
+        width: 726px;
+        height: 590px;
+        left: 357px;
+        top: 273px;
+        background: rgba(217, 217, 217, 0.9);
+        border-radius: 20px;
+        margin-left: 100px;
+        display: flex;
+        justify-content: center;
+} */
+
+#logo-name {
+    position: absolute;
+    width: 127.67px;
+    height: 41px;
+    left: 242px;
+    top: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 41px;
+    color: white;
+}
+
+#tagline {
+    position: absolute;
+    width: 120px;
+    height: 14px;
+    left: 242px;
+    top: 40px;
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 41px;
+    color: white;
+}
+
+.nav-links {
+    justify-content: space-between;
+}
+
+
+.nav-links ul {
+    /* display: flex; */
+    font-family: 'Montserrat';
+    font-style: semibold;
+    font-size: 24px;
+    line-height: 41px;
+    color: var(--primary-text-color);
+    justify-content: end;
+    gap: 40px;
+}
+
+#background {
+    top: 80px;
+    position: relative;
+    height: 882px;
+    width: 2073px;
+    background-color: rgba(0, 0, 0, 0.5);
+    object-fit: cover;
+}
+
+.nav-bar {
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#logo {
+    position: absolute;
+    height: 100px;
+    width: 60px;
+    left: 169px;
+    top: 4px;
+    border-radius: 0px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 25.5px;
+    margin: 0 10px;
+}
+
+.nav-links ul li a {
+    color: white;
+}
+
+.about {
+    position: absolute;
+    width: 1040px;
+    height: 1200px;
+    left: 120px;
+    top: 188px;
+    background: rgba(217, 217, 217, 0.7);
+    border-radius: 20px;
+
+}
+
+.src {
+    position: absolute;
+    height: 200x;
+    width: 150px;
+    left: 440px;
+    top: 2x;
+    border-radius: 0px;
+
+}
+
+.para {
+    position: absolute;
+    width: 950px;
+    height: 1000px;
+    left: 50px;
+    /* right:200px; */
+    top: 220px;
+    font-family: 'lemon-milk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: justify;
+    color: #000000;
+}
+@media only screen and (max-width: 768px) {
+    body {
+        background-size: 100% 100%;
+    }
+}
