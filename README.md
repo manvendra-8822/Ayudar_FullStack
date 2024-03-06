@@ -3,4 +3,4 @@ This project is an extension of my previous project Ayudar_Hackeclipse which was
 This project includes the backend and database as completing it into a Full-Stack(MERN) project.
 
 <br>
-The node modules used in this project are - bcrypt,popups,nodemon,moongoose,express
+The node modules used in this project are -: bcrypt, popups, nodemon, moongoose, express
