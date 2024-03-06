@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/login.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav-bar">
+            <div class="logo">
+                <a href="#"> <img src="/images/logoayudar .png" alt="logo" id="logo"></a>
+
+
+                <h2 id="logo-name">AYUDAR</h2>
+                <h4 id="tagline">Reviving nature</h4>
+            </div>
+            <div class="nav-links flex">
+                <ul class="flex">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="ngo.html">NGOs</a></li>
+                    <li><a href="login.html">Join Us</a></li>
+                    <li><a href="payment.html">Donate</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="sign-in">
+            <!-- <img src="/images/pexels-deva-darshan-1173777.jpg" alt="" id="background"> -->
+            <div class="inner-box">
+                <h3 class="heading">SIGN IN</h3>
+                <h5 class="short-heading">Log in into your account</h5>
+                <form action="/login" method="post">
+                    <input type="text" class="name" name="name" placeholder="Name" required>
+                    <i class="fa-solid fa-envelope fa-2xl" id="email-icon"></i>
+                    <input type="password" class="password" name="password" placeholder="   Password" required>
+                    <i class="fa-solid fa-lock fa-2xl" id="lock-icon"></i>
+                    <button class="signin-button" onclick="">
+                        <h4 id="placeholder1">Sign In</h4>
+                    </button>
+                </form>
+                
+
+                <!-- </div> -->
+                <span class="line1"></span>
+                <h5 id="continue">or continue with</h5>
+                <span class="line2"></span>
+                <span class="companies">
+                    <a
+                        href="https://accounts.google.com/o/oauth2/auth/oauthchooseaccount?client_id=331376529707-26ceh06q18dlh2jf5o4dm3tqt04icje8.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fwww.resume-now.com%2Fsignin%2Faccounts%2Fv4%2Fexternalloginresponse&response_type=code&scope=email&state=R0dMRXx8fGZhbHNlfHRydWV8aHR0cHM6Ly93d3cucmVzdW1lLW5vdy5jb20vc2lnbmluI3wxNTcwMjY0MjYxLjE2ODEwMDE4NzB8fHx8fDF8aHR0cHM6Ly93d3cucmVzdW1lLW5vdy5jb20vbHAvcm5hcnNtc202My5hc3B4P3V0bV9zb3VyY2U9Z29vZ2xlJnV0bV9tZWRpdW09c2VtJnV0bV9jYW1wYWlnbj0xNzQxMjcyODEmdXRtX3Rlcm09bm93JTIwcmVzdW1lJm5ldHdvcms9ZyZkZXZpY2U9YyZhZHBvc2l0aW9uPSZhZGdyb3VwaWQ9MTQxOTU0MTQ3MjEmcGxhY2VtZW50PSZnY2xpZD1DajBLQ1Fqd29jU2hCaENPQVJJc0FGVllxMGd3bWRQZzhpY09nOVBXa09LODZhTUtUa1dHRWlSNElWWmhfaF9DdS1NQ3ZBeU43V2EzdjBzYUFyTnRFQUx3X3djQg%3D%3D&service=lso&o2v=1&flowName=GeneralOAuthFlow"><i
+                            class="fa-brands fa-google fa-2xl" id="google-login"></i></a>
+                    <a
+                        href="https://www.facebook.com/login.php?skip_api_login=1&api_key=913434972013295&kid_directed_site=0&app_id=913434972013295&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fdialog%2Foauth%3Fclient_id%3D913434972013295%26redirect_uri%3Dhttps%253A%252F%252Fwww.resume-now.com%252Fsignin%252Faccounts%252Fv4%252Fexternalloginresponse%26response_type%3Dcode%26scope%3Demail%26state%3DRkNCS3x8fGZhbHNlfHRydWV8aHR0cHM6Ly93d3cucmVzdW1lLW5vdy5jb20vc2lnbmluI3wxNTcwMjY0MjYxLjE2ODEwMDE4NzB8fHx8fDF8aHR0cHM6Ly93d3cucmVzdW1lLW5vdy5jb20vbHAvcm5hcnNtc202My5hc3B4P3V0bV9zb3VyY2U9Z29vZ2xlJnV0bV9tZWRpdW09c2VtJnV0bV9jYW1wYWlnbj0xNzQxMjcyODEmdXRtX3Rlcm09bm93JTIwcmVzdW1lJm5ldHdvcms9ZyZkZXZpY2U9YyZhZHBvc2l0aW9uPSZhZGdyb3VwaWQ9MTQxOTU0MTQ3MjEmcGxhY2VtZW50PSZnY2xpZD1DajBLQ1Fqd29jU2hCaENPQVJJc0FGVllxMGd3bWRQZzhpY09nOVBXa09LODZhTUtUa1dHRWlSNElWWmhfaF9DdS1NQ3ZBeU43V2EzdjBzYUFyTnRFQUx3X3djQg%253D%253D%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3Dfdd1b591-02f2-4348-8e03-a1c1690eaefb%26tp%3Dunspecified&cancel_url=https%3A%2F%2Fwww.resume-now.com%2Fsignin%2Faccounts%2Fv4%2Fexternalloginresponse%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3DRkNCS3x8fGZhbHNlfHRydWV8aHR0cHM6Ly93d3cucmVzdW1lLW5vdy5jb20vc2lnbmluI3wxNTcwMjY0MjYxLjE2ODEwMDE4NzB8fHx8fDF8aHR0cHM6Ly93d3cucmVzdW1lLW5vdy5jb20vbHAvcm5hcnNtc202My5hc3B4P3V0bV9zb3VyY2U9Z29vZ2xlJnV0bV9tZWRpdW09c2VtJnV0bV9jYW1wYWlnbj0xNzQxMjcyODEmdXRtX3Rlcm09bm93JTIwcmVzdW1lJm5ldHdvcms9ZyZkZXZpY2U9YyZhZHBvc2l0aW9uPSZhZGdyb3VwaWQ9MTQxOTU0MTQ3MjEmcGxhY2VtZW50PSZnY2xpZD1DajBLQ1Fqd29jU2hCaENPQVJJc0FGVllxMGd3bWRQZzhpY09nOVBXa09LODZhTUtUa1dHRWlSNElWWmhfaF9DdS1NQ3ZBeU43V2EzdjBzYUFyTnRFQUx3X3djQg%253D%253D%23_%3D_&display=page&locale=en_GB&pl_dbl=0"><i
+                            class="fa-brands fa-facebook fa-2xl" id="facbook-login"></i></a>
+                    <a
+                        href="https://appleid.apple.com/auth/authorize?client_id=com.adobe.services.adobeid-na1.web&redirect_uri=https://federatedid-na1.services.adobe.com/federated/fromOIDC&state=AUPlDMhAbTdm5zNK4c-2wdRBBspwviVsMJSaWDCHnh-dRq6XMqnyuXoDl2WcFHE_nPvd2Ye15XIg&scope=email%20name&response_type=code&response_mode=form_post"><i
+                            class="fa-brands fa-apple fa-2xl" id="apple-login"></i></a>
+                </span>
+                <h4 id="no-option">Don't have an account ? <a href="signup.html">
+                        <h4 id="sign-up">Sign Up</h4>
+                    </a></h4>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/a6a76f1360.js" crossorigin="anonymous"></script>
+</body>
+</body>
+
+</html>
